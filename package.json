@@ -1,0 +1,28 @@
+{
+  "name": "neotube",
+  "version": "1.0.0",
+  "description": "YouTube Clone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldss3sang/neotube.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "Sangseok Doe<sangseoksoftware@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldss3sang/neotube/issues"
+  },
+  "homepage": "https://github.com/ldss3sang/neotube#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "nodemon": "^2.0.7"
+  }
+}
