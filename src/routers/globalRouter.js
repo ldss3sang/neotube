@@ -1,7 +1,8 @@
 import express from "express";
+import { home } from "../controllers/userController";
 
 const globalRouter = express.Router();
 
-globalRouter.get("/", handleHome);
-globalRouter.get("/join", HandleJoin);
+globalRouter.get("/", home);
+
 export default globalRouter;
